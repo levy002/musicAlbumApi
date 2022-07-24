@@ -1,7 +1,16 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+Album.create!([
+  {
+  title: 'First of All',
+  photo: 'https://web.daveplay.com/wp-content/uploads/2022/07/ALBUM-Diamond-Platnumz-First-Of-All-Acoustic.jpg',
+  artistName: 'Diamond Platinumz',
+  published: '2022',
+  label: 'Wasafi WCB'
+},
+{
+  title: 'Invisible Currency',
+  photo: 'https://en.wikipedia.org/wiki/Khaligraph_Jones',
+  artistName: 'Khaligraph Jones',
+  published: '2022',
+  label: 'BLUE INK'
+}
+])
